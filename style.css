@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@1,300;1,500;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@1,300;1,500;1,900&family=Poppins:ital@1&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    overflow: hidden;
+
+}
+ 
+.backgrund{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ;
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+.cabeçalho-link a{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+.cabeçalho-link a:hover{
+    color: coral;
+    transition: 0.3 all;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border:#d65408 solid 1px;
+    color: #d65408;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+   button{
+    color: #d65408;
+    background: transparent;
+    border: solid 1px #d65408;
+    pad: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+    font-weight: 300;
+    
+   
+   } 
+
+   button:hover{
+    background: #d65408;
+    color: antiquewhite;
+    transition: 0.5s;
+   }
+
+   .container-text{
+   margin-top:400px;
+   margin-left: 130px;
+   }
+
+   .text h3{
+    color:#d65408;
+    font-size: 15px;
+   }
+
+   .text h1{
+    color:#ffffff;
+    margin-top: 15px;
+   }
+
+   .text span{
+    color: #d65408;
+   }
+
+   .text p{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 10px;
+   }
+
+   .redes a{
+    color: #d65408;
+    padding-top: 10px;
+
+
+   }    
+
+   .btn{
+    margin-top: 10px;
+   }
+
+   .texto h1{
+    color: #d65408;
+   }
+
+   .texto p{
+    color: #ffffff;
+   }
+
+   .text0 h3{
+    color: #d65408;
+   }
+
+   .text0 p{
+    font-size: 20px;
+    color: #ffffff;
+   }
